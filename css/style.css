@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+}
+body {
+    background: url('../img/bg.jpg') fixed top;
+    background-size: cover;
+    height: auto;
+}
+
+.main {
+    position: fixed;
+    left: 0; right: 0;
+    bottom: 0;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.main h1 {
+    font: 8vw 'Bungee', cursive;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+.main p {
+    font: 2em 'Economica', sans-serif;
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+.main .info {
+    margin-top: 20px;
+    font: 1.5em 'Economica', sans-serif;
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+.main .info .punchline {
+    font: 0.8em 'Bungee', cursive;
+}
+
+.top-left {
+    position: absolute;
+    left: 0; top: 0;
+    width: 50%;
+    margin: 10px 10px;
+}
+.social a {
+    font: 2em 'Economica', sans-serif;
+    color: black;
+    text-shadow: 0 0 15px white;
+}
+
+.top-right {
+    position: absolute;
+    top: 0; right: 0;
+    width: 50%;
+    margin: 10px 10px;
+    text-align: right;
+}
+.gravatar {
+    width: 80px; height: 80px;
+    border: 3px solid white;
+    border-radius: 23%;
+    box-shadow: 0 0 8px grey;
+    background: url('https://www.gravatar.com/avatar/b5983a922a52daeeaaa280ad8bd91e64.jpg');
+    background-size: contain;
+}
+
+@media (min-width: 768px) {
+    .main {
+        height: 60%;
+    }
+    .main p {
+        font: 3em 'Economica', cursive;
+    }
+}
+
+@media (min-width: 992px) {
+    .main h1 {
+        font: 5em 'Bungee', cursive;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .gravatar {
+        background: url('https://www.gravatar.com/avatar/b5983a922a52daeeaaa280ad8bd91e64.jpg?s=240');
+        background-size: contain;
+    }
+}
