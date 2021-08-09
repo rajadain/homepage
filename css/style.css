@@ -44,6 +44,13 @@ body {
     font: 2em 'Economica', sans-serif;
     color: black;
     text-shadow: 0 0 15px white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.social i {
+    width: 45px;
+    text-align: center;
 }
 
 .top-right {
