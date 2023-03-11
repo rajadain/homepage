@@ -32,6 +32,7 @@ body {
 }
 .main .info .punchline {
     font: 0.8em 'Bungee', cursive;
+    color: white;
 }
 
 .top-left {
